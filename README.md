@@ -41,7 +41,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 >Elapsed time 1.324194 sec
 
 
-2. append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it →→ take 2X as much time? Explain why this task takes so long. 
+2. append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it take 2X as much time? Explain why this task takes so long. 
 
 >Append 100,000 chars to String
 
@@ -51,6 +51,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
 
 3. append 100,000 characters to a StringBuilder, then convert result to String and display its length. 
+
 >Append 100,000 chars to StringBuilder 
 
 >final string length = 100000 
@@ -94,7 +95,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 	
 	When you have more chars, you use more time to located the data in memory.
 
-  • Why is appending to StringBuilder so much different than appending to String? What is happening to the String? /s/s
+  • Why is appending to StringBuilder so much different than appending to String? What is happening to the String? 
   
 	 Because StringBuilder receive the whole Char to convert to String later 
 	 
