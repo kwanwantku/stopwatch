@@ -14,11 +14,11 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
 ##Explanation of Results
 
-   • why is there such a big difference in the time used to append chars to a String and to a StringBuilder? Even though we eventually "copy" the StringBuilder into a String so the final result is the same./s/s
+   • why is there such a big difference in the time used to append chars to a String and to a StringBuilder? Even though we eventually "copy" the StringBuilder into a String so the final result is the same.
    
      -  Because StringBuilder receive whole chars to covert to a String later but String receive each chars to convert to a String one by one char.
      
-   • why is there a significant difference in times to sum double, Double, and BigDecimal values? /s/s
+   • why is there a significant difference in times to sum double, Double, and BigDecimal values? 
    
      -  Because Each method has the different type, It make different to sum it. For The doubles is primitives type which sum not create object but The Double is class which create object.Finally, The BigDecimal is also class but need to import it for use and created object.
 
@@ -26,10 +26,10 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 #Run the SpeedTest tasks and explain the results
 
  
-1. append 50,000 characters to a String. Display length of the result (Don't display the string, of course) /s/s
-Append 50,000 chars to String /s/s
-final string length = 50000 /s/s
-Elapsed time 1.324194 sec
+1. append 50,000 characters to a String. Display length of the result (Don't display the string, of course)
+>Append 50,000 chars to String 
+>final string length = 50000
+>Elapsed time 1.324194 sec
 
 
 2. append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it →→ take 2X as much time? Explain why this task takes so long. /s/s
