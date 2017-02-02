@@ -16,12 +16,18 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
    • why is there such a big difference in the time used to append chars to a String and to a StringBuilder? Even though we eventually "copy" the StringBuilder into a String so the final result is the same.
    
-     -  Because StringBuilder receive whole chars to covert to a String later but String receive each chars to convert to a String one by one char.
+     Because StringBuilder receive whole chars to covert to a String later 
+     
+     but String receive each chars to convert to a String one by one char.
      
    • why is there a significant difference in times to sum double, Double, and BigDecimal values? 
    
-     -  Because Each method has the different type, It make different to sum it. For The doubles is primitives type which sum not create object but The Double is class which create object.Finally, The BigDecimal is also class but need to import it for use and created object.
-
+     Because Each method has the different type, It make different to sum it. 
+     
+     For The doubles is primitives type which sum not create object but The Double is class which create object.
+     
+     Finally, The BigDecimal is also class but need to import it for use and created object.
+     
 
 #Run the SpeedTest tasks and explain the results
 
@@ -84,13 +90,13 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
   • Why does appending 100,000 chars to a String take more than 2X the time to append 50,000 chars? 
   
-	= Because Chars using space to located the data in memory. 
+	Because Chars using space to located the data in memory. 
 	
 	When you have more chars, you use more time to located the data in memory.
 
   • Why is appending to StringBuilder so much different than appending to String? What is happening to the String? /s/s
   
-	 = Because StringBuilder receive the whole Char to convert to String later 
+	 Because StringBuilder receive the whole Char to convert to String later 
 	 
 	 but String receive for each Character of all to covert it to String. 
 	 
@@ -100,7 +106,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
   • Explain difference in time to sum double, Double, and BigDecimal. Which is faster and why? 
   
-         = The double is primitives number, So it not need to create the object. 
+         The double is primitives number, So it not need to create the object. 
 	 
 	 The Double is class which it needs to create the object. 
 	 
