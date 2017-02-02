@@ -31,8 +31,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
 #Run the SpeedTest tasks and explain the results
 
- 
-1. append 50,000 characters to a String. Display length of the result (Don't display the string, of course)
+1.append 50,000 characters to a String. Display length of the result (Don't display the string, of course)
 
 >Append 50,000 chars to String
 
@@ -40,8 +39,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 
 >Elapsed time 1.324194 sec
 
-
-2. append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it take 2X as much time? Explain why this task takes so long. 
+2.append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it take 2X as much time? Explain why this task takes so long. 
 
 >Append 100,000 chars to String
 
@@ -50,7 +48,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 >Elapsed time 3.202259 sec
 
 
-3. append 100,000 characters to a StringBuilder, then convert result to String and display its length. 
+3.append 100,000 characters to a StringBuilder, then convert result to String and display its length. 
 
 >Append 100,000 chars to StringBuilder 
 
@@ -59,7 +57,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 >Elapsed time 0.004196 sec
 
 
-4. sum 1,000,000,000 double values from an array 
+4.sum 1,000,000,000 double values from an array 
 
 >Sum array of double primitives with count=1,000,000,000
 
@@ -68,7 +66,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 >Elapsed time 1.393795 sec
 
 
-5. sum 1,000,000,000 Double objects having the same values as in task 4.
+5.sum 1,000,000,000 Double objects having the same values as in task 4.
 
 >Sum array of Double objects with count=1,000,000,000 
 
@@ -77,7 +75,7 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
 >Elapsed time 6.117972 sec
 
 
-6. sum 1,000,000,000 BigDecimal objects having the same values as in task 4 
+6.sum 1,000,000,000 BigDecimal objects having the same values as in task 4 
 
 >Sum array of BigDecimal with count=1,000,000,000 
 
