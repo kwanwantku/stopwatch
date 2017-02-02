@@ -28,8 +28,8 @@ Add 1 billion BigDecimal using array             | 33.693174 sec
  
 1. append 50,000 characters to a String. Display length of the result (Don't display the string, of course)
 >Append 50,000 chars to String 
->final string length = 50000
->Elapsed time 1.324194 sec
+>>final string length = 50000
+>>>Elapsed time 1.324194 sec
 
 
 2. append 100,000 characters to a String. Display length of the result. Since this is twice as many chars as task 1, does it →→ take 2X as much time? Explain why this task takes so long. /s/s
